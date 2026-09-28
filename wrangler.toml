@@ -1,0 +1,7 @@
+name = "chornplanet-data-api"
+main = "src/index.ts"
+compatibility_date = "2026-07-09"
+
+[[r2_buckets]]
+binding = "CHORN_DATA"
+bucket_name = "chornplanet-data"

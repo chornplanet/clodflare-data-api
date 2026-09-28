@@ -1,5 +1,42 @@
 {
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 1000,
 	"files.associations": {
-		"wrangler.json": "jsonc"
-	}
+		"wrangler.json": "jsonc",
+		"wrangler.jsonc": "jsonc",
+		"*.jsonc": "jsonc",
+		"*.toml": "toml"
+	},
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"files.exclude": {
+		"node_modules": true,
+		".wrangler": true,
+		".mf": true
+	},
+	"search.exclude": {
+		"node_modules": true,
+		".wrangler": true,
+		".mf": true,
+		"coverage": true
+	},
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"typescript.preferences.importModuleSpecifier": "relative",
+	"typescript.preferences.preferTypeOnlyAutoImports": true,
+	"json.schemaDownload.enable": true,
+	"npm.packageManager": "npm"
 }
